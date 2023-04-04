@@ -12,15 +12,15 @@ When creating a project it is important to think about organization of your code
 //Create a 3 x 3 box grid, nine square grid
 //Pass state array to Square component
 
-- As a user, I can click on a square to mark it.
+√ - As a user, I can click on a square to mark it.
 //Create a function named handleClick to mark it with an X or an O for one user in the Square.js.
 //Create a div, give it a className and use state for handleClick
 
-- As a user, my partner can click on a square after me and see their mark.
+√ - As a user, my partner can click on a square after me and see their mark.
 //Create a function named handleGamePlay
 //Create a conditional to click on square after another player has taken their turn
 
-- As a user, I can't click on a square that has already been marked.
+√ - As a user, I can't click on a square that has already been marked.
 //In the handleGamePlay function add conditionals that checks to see if box has been clicked and if it has, user cannot click
 
 - As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally) I can see a notice telling me which player won.
@@ -51,6 +51,7 @@ When creating a project it is important to think about organization of your code
 
 - As a user, I can choose my marker from a predetermined list (X, O, a color, an emoji, etc...).
 //Create a function to let user choose X or O, color, emoji, etc. from a list
+// make the icon into a variable
 
 ### 👩‍💻 Developer Stretch Goals
 
